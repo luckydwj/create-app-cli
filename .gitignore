@@ -1,14 +1,7 @@
-node_modules/
+*.xml
+*.iml
 .idea/
-.nyc_output/
-coverage/
-dist/
-demo/
-build/
-.DS_Store
-dll/
-.vscode/
-*.css
+node_modules
 
-/report.*.json
-/webpack.config.local.js
+#mac
+.DS_Store
