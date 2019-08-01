@@ -1,0 +1,25 @@
+{
+  "name": "dolly-cli",
+  "version": "1.0.0",
+  "description": "Dolly CLI",
+  "main": "src/ykit.js",
+  "bin": {
+    "dolly": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckydwj/dolly-cli.git"
+  },
+  "author": "lucky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luckydwj/dolly-cli/issues"
+  },
+  "homepage": "https://github.com/luckydwj/dolly-cli#readme"
+}
