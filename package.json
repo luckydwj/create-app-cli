@@ -4,7 +4,7 @@
   "description": "create-app-cli",
   "main": "src/ykit.js",
   "bin": {
-    "line-count": "./line-count.js"
+    "line-count": "demo/line-count.js"
   },
   "preferGlobal": true,
   "scripts": {

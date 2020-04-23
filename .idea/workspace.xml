@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/line-count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yargs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/line-count.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/line-count.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       <workItem from="1564471691350" duration="5527000" />
       <workItem from="1564647800591" duration="1606000" />
       <workItem from="1587364436985" duration="3514000" />
-      <workItem from="1587632785065" duration="2576000" />
+      <workItem from="1587632785065" duration="2894000" />
     </task>
     <servers />
   </component>
