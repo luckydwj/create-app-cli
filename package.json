@@ -1,16 +1,17 @@
 {
-  "name": "dolly-cli",
+  "name": "create-app-cli",
   "version": "1.0.0",
-  "description": "Dolly CLI",
+  "description": "create-app-cli",
   "main": "src/ykit.js",
   "bin": {
-    "dolly": "bin/index.js"
+    "line-count": "./line-count.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "commander": "^2.20.0"
+    "yargs": "^15.3.1"
   },
   "repository": {
     "type": "git",
