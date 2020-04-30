@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/line-count.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/line-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config.entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config.output.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/loader.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugin.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,28 +24,19 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>optimist</find>
-      <find>manager</find>
-      <find>test</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1anHSBxgilQGgdSkCSDocJ2ixrF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.13.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v7.0.0/bin/node" />
@@ -69,20 +67,22 @@
       <workItem from="1564647800591" duration="1606000" />
       <workItem from="1587364436985" duration="3514000" />
       <workItem from="1587632785065" duration="2894000" />
+      <workItem from="1588127397974" duration="4749000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587364742946">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1587364742946" />
-    <state x="220" y="23" width="982" height="709" key="SettingsEditor" timestamp="1587365222316">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state x="330" y="23" width="982" height="709" key="SettingsEditor" timestamp="1588138371545">
+      <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="220" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1587365222316" />
+    <state x="330" y="23" key="SettingsEditor/0.23.1920.985@0.23.1920.985" timestamp="1588138371545" />
   </component>
 </project>
