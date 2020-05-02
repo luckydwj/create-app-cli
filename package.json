@@ -2,17 +2,18 @@
   "name": "create-app-cli",
   "version": "1.0.0",
   "description": "create-app-cli",
-  "main": "src/ykit.js",
+  "private": true,
   "bin": {
     "line-count": "demo/line-count.js"
   },
   "preferGlobal": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "html-webpack-plugin": "^4.2.1",
-    "webpack": "^4.43.0",
+    "lodash": "^4.17.15",
     "yargs": "^15.3.1"
   },
   "repository": {
@@ -26,6 +27,10 @@
   },
   "homepage": "https://github.com/luckydwj/dolly-cli#readme",
   "devDependencies": {
-    "css-loader": "^3.5.3"
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-chain": "^6.4.0",
+    "webpack-cli": "^4.0.0-beta.2"
   }
 }

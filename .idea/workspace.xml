@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/config.entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/config.output.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/loader.css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/plugin.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/loader.file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.output.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.output.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/loader.css.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/loader.css.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -33,25 +37,47 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.13.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/configs" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v7.0.0/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v9.11.2/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/dist" />
       <recent name="$PROJECT_DIR$/src/modules/common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Node.js.webpack.config.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/configs/index.js" working-dir="$PROJECT_DIR$/configs">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/test.js" working-dir="$PROJECT_DIR$/test">
+      <method v="2" />
+    </configuration>
+    <configuration name="webpack.config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/webpack.config.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.webpack.config.js" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,6 +94,8 @@
       <workItem from="1587364436985" duration="3514000" />
       <workItem from="1587632785065" duration="2894000" />
       <workItem from="1588127397974" duration="4749000" />
+      <workItem from="1588396189394" duration="4527000" />
+      <workItem from="1588401170352" duration="4715000" />
     </task>
     <servers />
   </component>
@@ -75,14 +103,94 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587364742946">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588403986586">
+      <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1587364742946" />
-    <state x="330" y="23" width="982" height="709" key="SettingsEditor" timestamp="1588138371545">
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588403986586" />
+    <state width="1473" height="253" key="GridCell.Tab.0.bottom" timestamp="1588402453228">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="253" key="GridCell.Tab.0.bottom/0.23.1920.985@0.23.1920.985" timestamp="1588402453228" />
+    <state width="1473" height="253" key="GridCell.Tab.0.center" timestamp="1588402453227">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="253" key="GridCell.Tab.0.center/0.23.1920.985@0.23.1920.985" timestamp="1588402453227" />
+    <state width="1473" height="253" key="GridCell.Tab.0.left" timestamp="1588402453227">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="253" key="GridCell.Tab.0.left/0.23.1920.985@0.23.1920.985" timestamp="1588402453227" />
+    <state width="1473" height="253" key="GridCell.Tab.0.right" timestamp="1588402453228">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="253" key="GridCell.Tab.0.right/0.23.1920.985@0.23.1920.985" timestamp="1588402453228" />
+    <state width="1473" height="313" key="GridCell.Tab.1.bottom" timestamp="1588401828755">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.1.bottom/0.23.1920.985@0.23.1920.985" timestamp="1588401828755" />
+    <state width="1473" height="313" key="GridCell.Tab.1.center" timestamp="1588401828755">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.1.center/0.23.1920.985@0.23.1920.985" timestamp="1588401828755" />
+    <state width="1473" height="313" key="GridCell.Tab.1.left" timestamp="1588401828755">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.1.left/0.23.1920.985@0.23.1920.985" timestamp="1588401828755" />
+    <state width="1473" height="313" key="GridCell.Tab.1.right" timestamp="1588401828755">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.1.right/0.23.1920.985@0.23.1920.985" timestamp="1588401828755" />
+    <state width="1473" height="313" key="GridCell.Tab.2.bottom" timestamp="1588401828756">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.2.bottom/0.23.1920.985@0.23.1920.985" timestamp="1588401828756" />
+    <state width="1473" height="313" key="GridCell.Tab.2.center" timestamp="1588401828756">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.2.center/0.23.1920.985@0.23.1920.985" timestamp="1588401828756" />
+    <state width="1473" height="313" key="GridCell.Tab.2.left" timestamp="1588401828756">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.2.left/0.23.1920.985@0.23.1920.985" timestamp="1588401828756" />
+    <state width="1473" height="313" key="GridCell.Tab.2.right" timestamp="1588401828756">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.2.right/0.23.1920.985@0.23.1920.985" timestamp="1588401828756" />
+    <state width="1473" height="313" key="GridCell.Tab.3.bottom" timestamp="1588401828757">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.3.bottom/0.23.1920.985@0.23.1920.985" timestamp="1588401828757" />
+    <state width="1473" height="313" key="GridCell.Tab.3.center" timestamp="1588401828757">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.3.center/0.23.1920.985@0.23.1920.985" timestamp="1588401828757" />
+    <state width="1473" height="313" key="GridCell.Tab.3.left" timestamp="1588401828756">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.3.left/0.23.1920.985@0.23.1920.985" timestamp="1588401828756" />
+    <state width="1473" height="313" key="GridCell.Tab.3.right" timestamp="1588401828757">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="1473" height="313" key="GridCell.Tab.3.right/0.23.1920.985@0.23.1920.985" timestamp="1588401828757" />
+    <state x="330" y="23" width="982" height="709" key="SettingsEditor" timestamp="1588401480288">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="220" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1587365222316" />
-    <state x="330" y="23" key="SettingsEditor/0.23.1920.985@0.23.1920.985" timestamp="1588138371545" />
+    <state x="330" y="23" key="SettingsEditor/0.23.1920.985@0.23.1920.985" timestamp="1588401480288" />
+    <state x="570" y="231" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588400815665">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="570" y="231" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1920.985@0.23.1920.985" timestamp="1588400815665" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/configs/config.entry.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
