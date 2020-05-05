@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/loader.file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/loader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/loader/loader.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/loader/loader.file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/image/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/print.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/config.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.entry.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/config.output.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.output.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/loader.css.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/loader.css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/loader.css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/loader.file.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dist/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs/loader" />
+      <recent name="$PROJECT_DIR$/test/src/image" />
       <recent name="$PROJECT_DIR$/test/dist" />
       <recent name="$PROJECT_DIR$/src/modules/common" />
     </key>
@@ -95,7 +105,7 @@
       <workItem from="1587632785065" duration="2894000" />
       <workItem from="1588127397974" duration="4749000" />
       <workItem from="1588396189394" duration="4527000" />
-      <workItem from="1588401170352" duration="4715000" />
+      <workItem from="1588401170352" duration="16838000" />
     </task>
     <servers />
   </component>
@@ -103,11 +113,11 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588403986586">
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588667576576">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1587364742946" />
-    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588403986586" />
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588667576576" />
     <state width="1473" height="253" key="GridCell.Tab.0.bottom" timestamp="1588402453228">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
@@ -187,7 +197,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/configs/config.entry.js</url>
-          <line>11</line>
+          <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

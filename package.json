@@ -8,11 +8,10 @@
   },
   "preferGlobal": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1",
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
-    "html-webpack-plugin": "^4.2.1",
     "lodash": "^4.17.15",
     "yargs": "^15.3.1"
   },
@@ -27,7 +26,11 @@
   },
   "homepage": "https://github.com/luckydwj/dolly-cli#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.5.3",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-chain": "^6.4.0",
