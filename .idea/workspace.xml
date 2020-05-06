@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.hotmodule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.namedmodules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config.base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config.externals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.hashedmodule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.entry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.com.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.output.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.output.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/plugins/plugin.clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/plugin.clean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/plugins/plugin.namedmodules.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/plugin.namedmodules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/image/test.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/print.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs" />
       <recent name="$PROJECT_DIR$/configs/loader" />
       <recent name="$PROJECT_DIR$/test/src/image" />
       <recent name="$PROJECT_DIR$/test/dist" />
@@ -112,7 +106,7 @@
       <workItem from="1587632785065" duration="2894000" />
       <workItem from="1588127397974" duration="4749000" />
       <workItem from="1588396189394" duration="4527000" />
-      <workItem from="1588401170352" duration="26694000" />
+      <workItem from="1588401170352" duration="32208000" />
     </task>
     <servers />
   </component>
@@ -120,11 +114,11 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588749248658">
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588749808305">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1587364742946" />
-    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588749248658" />
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588749808305" />
     <state width="1473" height="253" key="GridCell.Tab.0.bottom" timestamp="1588402453228">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
@@ -189,15 +183,19 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state width="1473" height="313" key="GridCell.Tab.3.right/0.23.1920.985@0.23.1920.985" timestamp="1588401828757" />
-    <state x="330" y="23" width="982" height="709" key="SettingsEditor" timestamp="1588674367047">
+    <state x="330" y="23" width="982" height="709" key="SettingsEditor" timestamp="1588750623469">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="220" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1587365222316" />
-    <state x="330" y="23" key="SettingsEditor/0.23.1920.985@0.23.1920.985" timestamp="1588674367047" />
+    <state x="330" y="23" key="SettingsEditor/0.23.1920.985@0.23.1920.985" timestamp="1588750623469" />
     <state x="570" y="231" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588400815665">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="570" y="231" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1920.985@0.23.1920.985" timestamp="1588400815665" />
+    <state x="943" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1588753366864">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="943" y="230" width="670" height="676" key="search.everywhere.popup/0.23.1920.985@0.23.1920.985" timestamp="1588753366864" />
     <state x="724" y="339" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588733560764">
       <screen x="0" y="23" width="1920" height="985" />
     </state>

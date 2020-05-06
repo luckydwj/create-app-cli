@@ -4,7 +4,7 @@
 
 module.exports = function commonConfig() {
   const entry = require("./config.entry")();
-  const baseConfig = require("./config.prod");
+  const baseConfig = require("./config.base");
   const rules = require("./loader")();
   const plugins = require("./plugins")();
   const output = require("./config.output")();

@@ -5,13 +5,15 @@ const path = require("path");
 module.exports = function() {
   return {
     output: {
-      filename: "[name].bundle.js",
+      filename: "[name].[hash].js",
       path: path.resolve(__dirname, "../test/dist")
     }
   };
 };
-// module.exports = function(config) {
-//   config.output
-//     .path(path.resolve(__dirname, "../test/dist"))
-//     .filename("bundle.js");
-// };
+// 当打包library时配置
+function libraryOutPut() {
+  return {
+    library: "webpackNumbers",
+    libraryTarget: "umd"
+  };
+}
