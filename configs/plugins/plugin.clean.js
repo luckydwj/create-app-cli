@@ -3,5 +3,5 @@
  */
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = function(plugins) {
-  plugins.push(new CleanWebpackPlugin());
+  plugins.push(new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }));
 };

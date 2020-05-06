@@ -5,5 +5,7 @@ module.exports = function() {
   const plugins = [];
   require("./plugin.html")(plugins);
   require("./plugin.clean")(plugins);
+  require("./plugin.namedmodules")(plugins);
+  require("./plugin.hotmodule")(plugins);
   return { plugins };
 };

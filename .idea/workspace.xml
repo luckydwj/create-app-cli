@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/image/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/config.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.hotmodule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.namedmodules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dist/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/plugins/plugin.clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/plugin.clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/image/test.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +49,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -66,7 +79,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.webpack.config.js">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/configs/index.js" working-dir="$PROJECT_DIR$/configs">
+    <configuration name="config.com.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/configs/config.com.js" working-dir="$PROJECT_DIR$/configs">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/test.js" working-dir="$PROJECT_DIR$/test">
@@ -79,7 +92,7 @@
       <list>
         <item itemvalue="Node.js.webpack.config.js" />
         <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.config.com.js" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +112,7 @@
       <workItem from="1587632785065" duration="2894000" />
       <workItem from="1588127397974" duration="4749000" />
       <workItem from="1588396189394" duration="4527000" />
-      <workItem from="1588401170352" duration="17885000" />
+      <workItem from="1588401170352" duration="26694000" />
     </task>
     <servers />
   </component>
@@ -107,11 +120,11 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588667576576">
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588749248658">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="361" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709@0.23.1280.709" timestamp="1587364742946" />
-    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588667576576" />
+    <state x="542" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.985@0.23.1920.985" timestamp="1588749248658" />
     <state width="1473" height="253" key="GridCell.Tab.0.bottom" timestamp="1588402453228">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
@@ -185,13 +198,17 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="570" y="231" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1920.985@0.23.1920.985" timestamp="1588400815665" />
+    <state x="724" y="339" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588733560764">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="724" y="339" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1920.985@0.23.1920.985" timestamp="1588733560764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/configs/config.entry.js</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

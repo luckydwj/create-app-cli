@@ -5,8 +5,7 @@ const path = require("path");
 module.exports = function() {
   return {
     entry: {
-      index: path.resolve(__dirname, "../test/src/index.js"),
-      print: path.resolve(__dirname, "../test/src/print.js")
+      index: path.resolve(__dirname, "../test/src/index.js")
     }
   };
 };
