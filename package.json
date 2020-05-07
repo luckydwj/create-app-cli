@@ -4,9 +4,6 @@
   "description": "create-app-cli",
   "private": true,
   "sideEffects": false,
-  "bin": {
-    "line-count": "demo/line-count.js"
-  },
   "preferGlobal": true,
   "scripts": {
     "watch": "webpack --watch",

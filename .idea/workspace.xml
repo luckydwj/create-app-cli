@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d55ed4d-a3c9-43b3-a7b8-24d9f8706991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/config.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/config.externals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/plugins/plugin.hashedmodule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.com.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.com.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.output.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.output.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/plugins/plugin.namedmodules.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/plugins/plugin.namedmodules.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/image/test.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/index.js" afterDir="false" />
@@ -106,7 +99,7 @@
       <workItem from="1587632785065" duration="2894000" />
       <workItem from="1588127397974" duration="4749000" />
       <workItem from="1588396189394" duration="4527000" />
-      <workItem from="1588401170352" duration="32208000" />
+      <workItem from="1588401170352" duration="36702000" />
     </task>
     <servers />
   </component>
